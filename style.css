@@ -1,0 +1,172 @@
+.home {
+    background-image: url(afbeeldingen/home.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+h1 {
+    text-align: left;
+    font-family: 'abril fatface';
+    list-style-type: none;
+    width: 100%;
+    font-variant-caps: all-small-caps;
+    margin-bottom: 0.2em;
+    margin-top: 0em;
+}
+
+.box {
+    background-color: white;
+    margin: 0em;
+    box-shadow: 1em 1em #516953
+}
+
+.box2 {
+    background-color: white;
+    margin: 0em;
+    width: 14em;
+    box-shadow: 1em 1em #5d5491
+}
+
+.img {
+    background-color: white;
+    box-shadow: 50px 50px #516953
+}
+
+.box p:nth-of-type(2) {
+    margin-top: 2em;
+}
+
+.nav .start h1 {
+    text-align: center;
+    font-family: 'abril fatface';
+    list-style-type: none;
+    width: 100%;
+    font-variant-caps: all-small-caps;
+    margin-bottom: 0.4em;
+    margin-top: 1.34em;
+}
+
+h2 {
+    font-variant-caps: all-small-caps;
+    margin-bottom: 0em;
+}
+
+.imageflex {
+    display: flex;
+}
+
+
+.imageflexcontent p {
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.vier {
+    margin-left: 175px;
+    margin-top: 20px;
+}
+
+.vijf {
+    margin-left: 25px;
+    margin-top: 1em;
+}
+
+.center {
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 100%;
+    padding: 0;
+}
+
+p {
+    font-family: 'lato';
+    margin-top: 0em;
+    text-size-adjust: 1em;
+}
+
+li {
+    text-align: center;
+    font-family: 'abril fatface';
+    list-style-type: none;
+    width: 100%;
+    margin-top: 5.5em;
+    font-variant-caps: all-small-caps;
+}
+
+li:first-of-type {
+    margin-top: 2em;
+}
+
+a {
+    color: black;
+}
+
+.about {
+    background-image: url(afbeeldingen/about.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hoe {
+    background-image: url(afbeeldingen/hoe.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.hoe h2:first-of-type {
+    margin-bottom: 0em;
+    margin-top: 0em;
+}
+
+.hoe h2:nth-of-type(2) {
+    margin-top: 10.5em;
+    text-align: right;
+    margin-bottom: 0em;
+}
+
+
+.hoe p:nth-of-type(2) {
+    text-align: right;
+}
+
+.locaties {
+    background-image: url(afbeeldingen/locaties.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.locaties h2:first-of-type {
+    margin-top: 0em;
+}
+
+.start {
+    background-image: url(afbeeldingen/start.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.kasten {
+    background-image: url(afbeeldingen/kast.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* nav ul li:first-of-type 
+:nth-of-type(2) */
