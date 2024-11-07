@@ -32,7 +32,7 @@ nav ul {
 p {
     font-family: 'lato';
     margin-top: 0em;
-    text-size-adjust:1.6%;
+    text-size-adjust: 1.6%;
 }
 
 li {
@@ -71,6 +71,17 @@ header:not(.home header, .closet header) {
     background-color: white;
     box-shadow: 50px 50px #516953
 }
+
+.logo {
+    width: 100%;
+    height: 80px;
+}
+
+body header a img {
+    width: 100%;
+    height: 80px;
+}
+
 
 /* Index.html */
 
@@ -172,8 +183,6 @@ header:not(.home header, .closet header) {
 
 .locaties h2 {
     margin-bottom: 10px;
-    margin-left: 5px;
-
 }
 
 /* kasten.html */
@@ -195,12 +204,16 @@ header:not(.home header, .closet header) {
     height: 150px;
 }
 
-.floatleft {
+.float1 {
     float: left;
 }
 
-.floatright {
+.float2 {
     float: right;
+}
+
+.margin {
+    margin-left: 170px;
 }
 
 /* about.html */
@@ -235,18 +248,17 @@ header:not(.home header, .closet header) {
 
 /* about.html en locaties.html */
 
-.box {
-    background-color: white;
-    margin: 0em;
-    box-shadow: 1em 1em #516953
-}
-
-.box2 {
-    background-color: white;
+.purple {
     margin: 0em;
     width: 14em;
     box-shadow: 1em 1em #5d5491;
 }
+
+.box {
+    margin: 0em;
+    box-shadow: 1em 1em #516953
+}
+
 
 .box p:nth-of-type(2) {
     margin-top: 2em;
