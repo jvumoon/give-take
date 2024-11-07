@@ -63,9 +63,7 @@ header:not(.home header, .closet header) {
     margin-top: 10px;
     margin-right: 10px;
 
-}
-
-/* https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
+} /* https://developer.mozilla.org/en-US/docs/Web/CSS/:not */
 
 .img {
     background-color: white;
@@ -81,8 +79,6 @@ body header a img {
     width: 100%;
     height: 80px;
 }
-
-
 /* Index.html */
 
 .home h1,
@@ -223,6 +219,11 @@ body header a img {
     height: 150px;
 }
 
+.boxleft {
+    margin-left: 45px;
+    box-shadow: 1em 1em #516953
+}
+
 .about {
     background-image: url(afbeeldingen/about.png);
     background-size: 100%;
@@ -248,14 +249,13 @@ body header a img {
 
 /* about.html en locaties.html */
 
-.purple {
+.photo {
     margin: 0em;
     width: 14em;
     box-shadow: 1em 1em #5d5491;
 }
 
 .box {
-    margin: 0em;
     box-shadow: 1em 1em #516953
 }
 
@@ -274,6 +274,3 @@ body header a img {
     margin-top: 5px;
     margin-right: 5px;
 }
-
-/* nav ul li:first-of-type 
-:nth-of-type(2) */
